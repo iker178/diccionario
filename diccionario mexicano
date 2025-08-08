@@ -1,0 +1,16 @@
+diccionario_mexicano = {
+  "que vuela o que" : "es que esta muy caro o costoso",
+  "ponte a chambear" : "es ponte a trabajar",
+  "aguas" : "es cuidado",
+  "ya estoy afuera de tu casa" : "llego en 1 hora o mas (a veces es real) ",
+  }
+
+while true:
+frase = input("di una frase mexicana que no sepas su significado")
+  
+    if frase in diccionario_mexicano.keys():
+        print(diccionario_mexicano[frase])
+    else:
+        print("¡palabra no encontrada!")
+
+  
